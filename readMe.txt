@@ -1,0 +1,7 @@
+Menu Recommendations
+
+This program uses two menus, one ‘salty’ menu and one ‘sweet’ menu, and solves the problem of what you would order from one or both menus. It accepts the option of having sweet food, salty food, or both, and takes the number of people dining as inputs. With these two inputs, it returns a list of randomly selected dish recommendations that provide the appropriate number of servings to accommodate the number of people dining. Instead of struggling with the indecisiveness that comes with ordering for yourself and for other people, you can have this program pick out the appropriate dish for you and your party.
+
+This program has two input text files called ‘salty.txt’ and ‘sweet.txt’ that are read into separate menu dictionaries. With the keys being the name of the dish, and values being the number of servings the dish provides. Each file consists of 12 lines of text. The first being the name of the dish, and the second being the number of servings per dish. The menu alternates between name and servings accordingly.
+
+There are three output text files. ‘sweetOrder.txt’, ‘saltyOrder.txt’, and ‘cps109_a1_output.txt’. The first two files are just the “food orders” of the program. They record the randomly selected menu recommendations that were generated from the sweet and salty menus respectively. The third file contains the exact output that is displayed when the program is run.
